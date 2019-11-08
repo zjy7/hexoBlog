@@ -94,7 +94,7 @@ theme: next
 
 # Deployment
 # Docs: https://hexo.io/docs/deployment.html
-deploy:
- type: 'git'
- repo: git@github.com:zjy7/zjy7.github.io.git
- branch: master
+# deploy:
+#  type: 'git'
+#  repo: git@github.com:zjy7/zjy7.github.io.git
+#  branch: master
