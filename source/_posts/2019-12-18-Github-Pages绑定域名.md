@@ -26,5 +26,18 @@ tags:
    - 到自己的GitHubPages仓库下。在Settings -> GitHub Pages -> Custom domain内填入自己的域名地址。
    - 保存后，就会在仓库根目录下看的新增的CNAME文件。参考GitHub文档[managing-a-custom-domain-for-your-github-pages-site](https://help.github.com/en/github/working-with-github-pages/managing-a-custom-domain-for-your-github-pages-site)
 
+## 遇到的坑
+  通过Travis CI自动部署至GitHub Pages后，CNAME文件就没了。
+  解决方案：**将CNAME文件放到source目录下**。
+  
+  部署后，发现仓库根目录下的确有CNAME文件。点击Settings后发现Custom domain也是正确的。但是访问zjy7.top失败。
+
+  等待约5分钟后，还是不行。
+
+  打开[西部数码](https://www.west.cn/)域名管理页查看。发现CNAME解析的状态已改为暂停。
+  解决方案：**手动开启CNAME域名解析**。
+
+  等待1分钟后，可以正常访问zjy7.top。
+
 ## Tips
   域名解析指向添加成功和修改成功，需等待各地dns刷新后解析方可生效。实测大概需要5分钟。
