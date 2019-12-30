@@ -1,9 +1,11 @@
 ---
 title: crossorigin
+date: 2019-12-30 13:08:19
 tags:
 ---
+
 ## crossorigin="anonymous"
-从微信公众号文章，复制文本图片至项目里的富文本编辑器内，图片不能显示。
+从微信公众号文章，复制文本图片,至项目里的富文本编辑器内，图片不能显示。
 
 查看DOM,发现图片img标签里有个crossorigin="anonymous",去掉改属性就能显示图片。
 
