@@ -52,3 +52,23 @@ import WebsocketHeartbeatJs from 'websocket-heartbeat-js'
     console.log('reconnecting...')
   }
 ```
+
+
+### 想到另一个demo
+
+想起来之前接手了个老项目，后端用.net写的，也要实现ws功能。
+后来找到个signalr插件实现了。
+
+代码如下：
+```javascript
+import '@web/libs/signalr'
+
+const c = new signalR.HubConnectionBuilder()
+  .withUrl(`${window.location.protocol}//${window.location.host}/messagehub`)
+  .build()
+c.on('ReceiveMsg',function(message){
+  // console.log(message)
+  // 这里接收数据
+})
+c.start().catch(err=>{console.log(err)})
+```
