@@ -17,7 +17,7 @@ after_script:
   - git config user.name "zjy7"
   - git config user.email "zjy7@hotmail.com"
   - git add .
-  - git commit -m "Auto Update blog content by Travis CI"
+  - git commit -m "Auto Update blog content by Travis CI at `date +"%Y-%m-%d %H:%M"`"
   - git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" master:master
 
 branches:
