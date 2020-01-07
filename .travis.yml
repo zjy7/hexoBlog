@@ -6,6 +6,7 @@ cache:
     - node_modules
 
 before_install:
+  # 添加 commit 时间戳 东8区
   - export TZ='Asia/Shanghai'
   - npm install -g hexo-cli
 
@@ -17,6 +18,7 @@ script:
   - hexo g
 
 after_script:
+  # 下面5行 防止master commit 树被清空
   - git clone https://${GH_REF} .deploy_git
   - cd .deploy_git
   - git checkout master
@@ -33,3 +35,8 @@ after_script:
 branches:
   only:
     - master
+
+env:
+  global:
+    - GH_XXX: github.com/zjy7/zjy7.github.io.git
+    # 设置GH_REF，注意更改成自己的仓库地址
