@@ -1,8 +1,10 @@
 ---
 title: art-template模板引擎
+date: 2020-01-10 09:10:50
 tags:
 ---
-分享一个之前用过的模板引擎[art-template](https://aui.github.io/art-template/zh-cn/docs/)。之前的需求是要动态渲染地图上点位信息展示面板Popup、Tooltip。
+
+分享一个之前用过的模板引擎[art-template](https://aui.github.io/art-template/zh-cn/docs/)。解决的需求是要动态渲染地图上点位信息展示面板Popup、Tooltip。
 
 ### 渲染模板
 ```javascript
