@@ -1,7 +1,10 @@
 ---
 title: about jsessionid
+date: 2020-04-02 13:25:02
 tags:
+categories:
 ---
+
 
 ### 第一次访问服务器的时候，后端会在Response Header里Set-Cookie，设置好jsessionId，之后的每次请求浏览器会在request Header里将这个cookie带上。
 
