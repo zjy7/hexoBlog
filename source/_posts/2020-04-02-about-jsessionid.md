@@ -2,7 +2,7 @@
 title: about jsessionid
 date: 2020-04-02 13:25:02
 tags:
-categories:
+categories: Code
 ---
 
 
