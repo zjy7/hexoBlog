@@ -18,12 +18,12 @@ script:
   - hexo g
 
 after_script:
-  # 下面5行 防止master commit 树被清空
-  - git clone https://${GH_REF} .deploy_git
-  - cd .deploy_git
-  - git checkout master
-  - cd ../
-  - mv .deploy_git/.git/ ./public/
+  # 下面5行 防止master commit 树被清空 -- 暂时注释2020年4月24日 14:18:06
+  # - git clone https://${GH_REF} .deploy_git
+  # - cd .deploy_git
+  # - git checkout master
+  # - cd ../
+  # - mv .deploy_git/.git/ ./public/
   - cd ./public
   - git init
   - git config user.name "zjy7"
