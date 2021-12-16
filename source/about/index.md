@@ -15,3 +15,6 @@ Bale
 - [diff file](https://www.diffchecker.com/diff)
 - [python monday](http://damiantgordon.com/PythonMonday/)
 - [css文字太多省略](https://zjy7.github.io/2020/05/18/css%E6%96%87%E5%AD%97%E5%A4%AA%E5%A4%9A%E7%9C%81%E7%95%A5/)
+- [教孩子和妻子编程](https://zhihua-lai.com/teaching/ch/)
+- [女王控-博客](https://blog.towavephone.com/)
+- [panax-博客](https://www.cnblogs.com/panax/category/1447569.html)
