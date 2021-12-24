@@ -18,3 +18,5 @@ Bale
 - [教孩子和妻子编程](https://zhihua-lai.com/teaching/ch/)
 - [女王控-博客](https://blog.towavephone.com/)
 - [panax-博客](https://www.cnblogs.com/panax/category/1447569.html)
+- [invest](https://invest.xiting.cc/)
+- [less bug-博客](https://www.less-bug.com/)
